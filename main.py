@@ -1,4 +1,4 @@
-from re import *
+from re import findall
 
 def first_task() -> tuple:
     data = ''.join(open('task1-ru.txt', encoding='UTF-8').readlines())
